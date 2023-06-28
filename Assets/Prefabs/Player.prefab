@@ -73,7 +73,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -253397815
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 200
   m_Sprite: {fileID: 21300000, guid: a94bf141bd2044c4399e321445c83112, type: 3}
   m_Color: {r: 0.32156864, g: 0.41960785, b: 0.7176471, a: 1}
@@ -103,6 +103,7 @@ GameObject:
   - component: {fileID: 1766379014502078158}
   - component: {fileID: 5915680454358971629}
   - component: {fileID: 8263572042123241787}
+  - component: {fileID: 1402110115676451060}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -285,6 +286,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: {fileID: 5915680454358971629}
   healthBarImage: {fileID: 1043798278124279730}
+--- !u!114 &1402110115676451060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2616790076163284007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ba878754b2c0ae49aa5e6f2915c0fa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TotalCoins:
+    m_InternalValue: 0
 --- !u!1 &4395407933368756788
 GameObject:
   m_ObjectHideFlags: 0
@@ -389,7 +404,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -253397815
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1a838243856331f4681c559527ad5846, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -579,7 +594,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -253397815
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 100
   m_Sprite: {fileID: 21300000, guid: 8769e4453ce5bc3429cfba7d58fbef13, type: 3}
   m_Color: {r: 0.32128873, g: 0.41879654, b: 0.7169812, a: 1}
@@ -833,7 +848,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -253397815
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 150
   m_Sprite: {fileID: 21300000, guid: 9d8bd4f8481a773488649b18bd02cbc1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
