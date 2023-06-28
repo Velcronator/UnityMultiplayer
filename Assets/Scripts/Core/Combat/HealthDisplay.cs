@@ -29,5 +29,4 @@ public class HealthDisplay : NetworkBehaviour
     {
         healthBarImage.fillAmount = (float)newHealth / health.MaxHealth;
     }
-
 }
