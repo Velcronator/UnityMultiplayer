@@ -494,6 +494,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   virtualCamera: {fileID: 3603894103701664345}
   minimapIconRenderer: {fileID: 5367324754957053123}
+  crosshair: {fileID: 2800000, guid: 0a07aa6c8e0036a4e986443af5afbbd3, type: 3}
   <Health>k__BackingField: {fileID: 168652603253512572}
   <Wallet>k__BackingField: {fileID: 7852237968739916631}
   ownerPriority: 15
